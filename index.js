@@ -4,7 +4,7 @@ let nivel = ""
 
 if (xp < 1000 ){
         nivel = "Ferro!"
-        console.log(nivel + " Se esforce mais " + nome + ".")
+        console.log(nivel + " seu nível atual é " + nome + ".")
         console.log("Você possui: " + xp + " XPs.")
 }
 else if(xp >= 1001 && xp <= 2000){
